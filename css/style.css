@@ -12,6 +12,7 @@
     color: white;
     padding: 1px;
     text-align: center;
+    min-height: 4vw;
 }
 
 [class*="col"] h2 {
