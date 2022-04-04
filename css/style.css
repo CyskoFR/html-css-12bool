@@ -1,0 +1,25 @@
+.section {
+    margin: 1vw 0;
+}
+
+.row-nested {
+    padding: 2%;
+}
+
+[class*="col"] {
+    background-color: #006cfa;
+    background-clip: content-box;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+[class*="col"] h2 {
+    font-size: 1vw;
+    padding: 1vw;
+}
+
+[class*="col"] .col-nested {
+    background-color: #00e165;
+}
+
