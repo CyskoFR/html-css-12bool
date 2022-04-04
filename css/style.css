@@ -3,10 +3,15 @@
 }
 
 .row-nested {
+    width: 100%;
     padding: 2%;
 }
 
 [class*="col"] {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
     background-color: #006cfa;
     background-clip: content-box;
     color: white;
